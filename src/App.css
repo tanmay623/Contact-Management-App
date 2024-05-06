@@ -1,0 +1,45 @@
+.App {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #f7f7f7; /* added a light gray background */
+  padding: 20px; /* added some padding to the app container */
+}
+
+.App-logo {
+  height: 60px; /* increased the logo size */
+  margin: 20px; /* added some margin to the logo */
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #333; /* changed the background color to a darker gray */
+  padding: 20px; /* added some padding to the header */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* increased the font size */
+  color: #fff; /* changed the text color to white */
+  border-bottom: 1px solid #444; /* added a bottom border to the header */
+}
+
+.App-link {
+  color: #337ab7; /* changed the link color to a blue shade */
+  text-decoration: none; /* removed the underline from the link */
+  transition: color 0.2s ease; /* added a transition effect to the link */
+}
+
+.App-link:hover {
+  color: #23527c; /* changed the link color on hover to a darker blue shade */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
